@@ -1,0 +1,30 @@
+div {
+    display: flex;
+    border: 5px solid #000000;
+    margin: 50px;
+}
+
+#one {
+    background-color: #3535c2;
+    justify-content: center;
+}
+
+#two {
+    background-color:  #15c315;
+    justify-content: space-around;
+}
+
+#three {
+    background-color: #a12323;
+    justify-content: space-between;
+}
+
+#four {
+    background-color: #dada2f;
+    justify-content: space-evenly;
+}
+
+#five {
+    background-color: purple;
+    flex-direction: column;
+}
